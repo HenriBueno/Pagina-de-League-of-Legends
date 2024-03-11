@@ -1,0 +1,95 @@
+body{
+    overflow-x: hidden;
+}
+header {
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    
+ 
+}
+
+.logo-lol{
+    height: 10vh;
+    margin-left: 2vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+
+nav a{
+    margin: 1vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vh;
+    
+    }
+
+
+.pesquisar {
+    
+    
+    height: 20px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    
+}
+
+body {
+    background-image: url('/Img/lol.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    height: 100vh;
+    background-color: rgb(26, 23, 23);
+    
+}
+
+
+h1{
+    
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 4vh; 
+    margin: 10px 23%;
+      
+   
+}
+
+
+ul{
+    
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    margin: 0px 10vw;
+    
+}
+li {
+    width: 6vh;
+    margin: 2vh;
+    padding: 1px;
+    text-align: center;  
+    
+
+}
+li img{
+   width: 6vh;
+   
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}

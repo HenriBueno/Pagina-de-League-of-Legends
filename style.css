@@ -1,0 +1,101 @@
+body{
+    overflow-x: hidden;
+
+   
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    width: 100vw;
+    height: 7vh;
+    padding: 10px;
+
+
+}
+
+.logo-lol{
+    height: 10vh;
+    margin-left: 2vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+
+nav a{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 0.7em;
+    
+    }
+
+
+form {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    display: flex; 
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 85%;
+}
+
+input{
+    width: 20%;
+    margin: 0px 2px;
+
+}
+button{
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+body {
+    background-image: url('/Img/lol.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Garante que a imagem cubra todo o fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    margin:0;
+    padding: 0;
+    background-position: center;
+    height: 100vh;
+
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 1px;
+    font-family: 'Playfair Display', serif;
+    margin-right: 100px;
+    
+    
+}
+.texto {
+    margin: 10px 100px;
+    width: 800px;
+    font-size: 2vh;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 1%;
+}
+.mapa {
+    border-radius: 50px;
+    border: solid 5px;
+    color:black;
+    width: 100%;
+    
+}
+aside p, img{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 4vh;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
